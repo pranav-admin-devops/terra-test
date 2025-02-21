@@ -64,8 +64,8 @@ resource "azurerm_subnet" "sub1" {
  
 resource "azurerm_public_ip" "pip1" {
   name                = "ben-pip"
-  resource_group_name = azurerm_resource_group.rg.location
-  location            = azurerm_resource_group.rg.name
+  resource_group_name = azurerm_resource_group.rg.name
+  location            = azurerm_resource_group.rg.location
   allocation_method   = "Static"
 }
 
