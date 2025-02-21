@@ -21,7 +21,7 @@ variable "location" {
 
 
 variable "size" {
-  default = "Standard_D2s_v3"
+  default = "Standard_F2"
 }
 
 
